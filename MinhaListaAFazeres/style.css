@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+  }
+  
+  #formulario {
+    margin: 20px;
+  }
+  
+  #novoAFazer {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    width: 80%;
+    margin-right: 10px;
+  }
+  
+  #novoItem,  #limpar {
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+  
+  #novoItem:hover,
+  #limpar:hover {
+    background-color: #3e8e41;
+  }
+  
+  #listagem {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px;
+  }
+  
+  #listagem td,
+  #listagem th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    width: 79.5%;
+
+  }
+
+  #listagem th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  #listagem button {
+    background-color: #ff4d4d;
+    position: fixed;
+    right: 260px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 8px 16px;
+    
+  }
+  
